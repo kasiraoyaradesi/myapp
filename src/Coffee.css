@@ -1,0 +1,22 @@
+.body{
+    background-color: royalblue;
+}
+.container{
+
+    float: left;
+    padding: 60px;
+    margin: 80px;
+    text-align: center;
+    width: 200px;
+    height: 5PX;
+    flex-wrap: wrap;
+
+}
+
+.text{
+    text-align: center;
+    color: red;
+    font-size: 40px
+    
+
+}

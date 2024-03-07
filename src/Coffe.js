@@ -43,6 +43,7 @@ import Coffee from './Coffee.css'
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25WykRMaDVFW5xqeiRQkIBLGqgHOAmTOyPQ&usqp=CAU"
 
     },
+    
      
     ]
   return (
@@ -55,7 +56,7 @@ import Coffee from './Coffee.css'
             Coffe.map((value,index)=>(
                 <div class="container">
 
-                    <div> <img src={value.image} width={190} height={190} alt=""></img> </div>
+                    <div> <img src={value.image} width={170} height={170} alt=""></img> </div>
                      <div>{value.name}</div>
                      <div> {value.price}</div>
                      <div> <button> ADD </button></div>

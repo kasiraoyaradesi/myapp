@@ -2,7 +2,7 @@ import React from "react";
 import Feeds from "./Feeds";
 import Post from "./Post";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-export default function App15() {
+export default function App11() {
   return (
     <div>
       <Router>

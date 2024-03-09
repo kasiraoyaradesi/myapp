@@ -15,11 +15,11 @@ import './index.css';
 
 // import Product from './Product'
 
-// import Coffe from './Coffe'
+import Coffe from './Coffe'
 
 // import App8 from './App8'
 
-import App9 from './App9'
+// import App9 from './App9'
 
 
 
@@ -45,11 +45,11 @@ root.render(
   {/* <App5/> */}
   {/* <App6/> */}
 
-  {/* <Coffe/> */}
+  <Coffe/>
 
   {/* <App8 /> */}
 
-  <App9 />
+  {/* <App9 /> */}
 
 
 

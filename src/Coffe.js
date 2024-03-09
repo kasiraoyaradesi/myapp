@@ -5,7 +5,7 @@ import Coffee from './Coffee.css'
 
  const Coffe = () => {
 
-    let Coffe = [
+    let Coffe= [
         { 
         name: "Espresso",
         price:300,
@@ -46,6 +46,8 @@ import Coffee from './Coffee.css'
     
      
     ]
+
+    
   return (
 
     <div class="body">

@@ -1,19 +1,21 @@
 .body{
-    background-color: royalblue;
+    background-color: rgb(213, 55, 55)
 }
 .container{
 
     float: left;
-    padding: 60px;
+    padding: 80px;
     margin: 80px;
     text-align: center;
     height: 2px;
+    background-color: gold;
+    height: 200px;
 
 }
 
 .text{
     text-align: center;
-    color: red;
+    color: white;
     font-size: 40px
     
 

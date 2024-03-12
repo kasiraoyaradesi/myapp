@@ -63,23 +63,23 @@ import {useState,useEffect} from "react";
 ////////////////////////////
 
 
-// const complexFunction = () => {
-//   console.log("Initializing count");
-//   return 5;
-// };
-// export default function App9() {
-//   // const [count, setCount] = useState(() => {
-//   //   return complexFunction() //runs once
-//   // });
-//   const [count, setCount] = useState(complexFunction()); //runs on every render
-//   return (
-//     <>
-//       <button onClick={() => setCount((prevState) => prevState - 1)}>-</button>
-//       <span>{count}</span>
-//       <button onClick={() => setCount((prevState) => prevState + 1)}>+</button>
-//     </>
-//   );
-// }
+const complexFunction = () => {
+  console.log("Initializing count");
+  return 5;
+};
+export default function App9() {
+  // const [count, setCount] = useState(() => {
+  //   return complexFunction() //runs once
+  // });
+  const [count, setCount] = useState(complexFunction()); //runs on every render
+  return (
+    <>
+      <button onClick={() => setCount((prevState) => prevState - 1)}>-</button>
+      <span>{count}</span>
+      <button onClick={() => setCount((prevState) => prevState + 1)}>+</button>
+    </>
+  );
+}
 
 /////////////////
 
@@ -127,52 +127,52 @@ import {useState,useEffect} from "react";
 ///////////////////////
 
 
-export default function App9() {
-      const [student, setStudent] = useState({});
-      const [students, setStudents] = useState([]);
-      const addStudent = () => {
-        setStudents((prevStudents) => [...prevStudents, student]);
-      };
-      return (
-        <>
-          <p>
-            <input
-              type="text"
-              onChange={(e) =>
-                setStudent((prevStudent) => ({
-                  ...prevStudent,
-                  ...{ name: e.target.value },
-                }))
-              }
-              placeholder="Enter Name"
-            ></input>
-          </p>
-          <p>
-            <input
-              type="text"
-              onChange={(e) =>
-                setStudent((prevStudent) => ({
-                  ...prevStudent,
-                  ...{ age: e.target.value },
-                }))
-              }
-              placeholder="Enter Age"
-            ></input>
-          </p>
-          <p>
-            <button onClick={addStudent}>Add Student</button>
-          </p>
-          <div>
-            {students &&
-              students.map((value, index) => (
-                <div key={index}>
-                  {value.name}-{value.age}
-                </div>
-              ))}
-          </div>
-        </>
-      );
-    }
+// export default function App9() {
+//       const [student, setStudent] = useState({});
+//       const [students, setStudents] = useState([]);
+//       const addStudent = () => {
+//         setStudents((prevStudents) => [...prevStudents, student]);
+//       };
+//       return (
+//         <>
+//           <p>
+//             <input
+//               type="text"
+//               onChange={(e) =>
+//                 setStudent((prevStudent) => ({
+//                   ...prevStudent,
+//                   ...{ name: e.target.value },
+//                 }))
+//               }
+//               placeholder="Enter Name"
+//             ></input>
+//           </p>
+//           <p>
+//             <input
+//               type="text"
+//               onChange={(e) =>
+//                 setStudent((prevStudent) => ({
+//                   ...prevStudent,
+//                   ...{ age: e.target.value },
+//                 }))
+//               }
+//               placeholder="Enter Age"
+//             ></input>
+//           </p>
+//           <p>
+//             <button onClick={addStudent}>Add Student</button>
+//           </p>
+//           <div>
+//             {students &&
+//               students.map((value, index) => (
+//                 <div key={index}>
+//                   {value.name}-{value.age}
+//                 </div>
+//               ))}
+//           </div>
+//         </>
+//       );
+//     }
 
 
 

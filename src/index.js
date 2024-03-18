@@ -23,6 +23,8 @@ import './index.css';
 
 import App10 from './App10'
 
+import App18 from './App18'
+
 // import App13a from './App13a'
 
 
@@ -68,7 +70,7 @@ root.render(
   {/* <App9 /> */}
 
 
-  <App10 />
+  {/* <App10 /> */}
 
   {/* <Login1/> */}
 
@@ -81,6 +83,9 @@ root.render(
   {/* <App16/> */}
 
   {/* <App17/> */}
+
+  <App18 />
+
 
   </React.StrictMode>
 );

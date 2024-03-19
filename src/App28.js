@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default function App31(props) {
+export default function App28(props) {
   // props.age=20
 
   return <div>{props.name}{props.age}</div>;

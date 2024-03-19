@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-export default function App30() {
+export default function App26() {
   const [count, setcount] = useState(0);
   const [obj, setobj] = useState({ name: "John", age: 20 });
   const [arr, setarr] = useState([6, 5]);
